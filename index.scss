@@ -95,3 +95,22 @@ section#about {
         background: #ffffff;
     }
 }
+
+section#content {
+    h2{
+        color: white;
+        font-size: 4.3vw;
+        text-align: left;
+        margin: 0vw; padding:1vw;
+        background-image: url('/assets/extras/text\ bg\ 2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 6vw;
+        width: 40vw;
+    }
+    
+    iframe.video-1 {
+        border-radius: 15px;
+        margin: 1vw;
+    }
+}
