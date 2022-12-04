@@ -250,3 +250,34 @@ footer {
         }
     }
 }
+
+div.modal {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 2vw;
+    padding: .5vw;
+    text-align: right;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 2px grey;
+    a{
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: .5vw;
+        margin: .3vw;
+        transition: .5s;
+
+        &:hover, &:active {
+            padding: .6vw;
+            margin: .4vw;
+            transition: .5s;
+        }
+        // i{
+        //     padding-left: .5vw;
+        // }
+    }
+
+}

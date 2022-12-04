@@ -244,4 +244,30 @@ footer div.grid a:hover, footer div.grid a:active {
 footer div.grid p {
   margin: 0;
   padding: 0;
+}
+
+div.modal {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 2vw;
+  padding: 0.5vw;
+  text-align: right;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 2px grey;
+}
+div.modal a {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 0.5vw;
+  margin: 0.3vw;
+  transition: 0.5s;
+}
+div.modal a:hover, div.modal a:active {
+  padding: 0.6vw;
+  margin: 0.4vw;
+  transition: 0.5s;
 }/*# sourceMappingURL=index.css.map */
