@@ -256,11 +256,20 @@ div.modal {
     bottom: 0px;
     right: 0px;
     margin: 2vw;
-    padding: .5vw;
+    padding: 0vw;
     text-align: right;
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 10px 2px grey;
+    div.close {
+        background-color: #d0f1ff;
+        padding: 0.2vw 0.7vw 0.2vw 0.7vw;
+        border-radius: 10px 10px 0px 0px;
+        cursor: pointer;
+    }
+    p {
+        padding: .5vw;
+    }
     a{
         background-color: red;
         color: white;
@@ -275,9 +284,30 @@ div.modal {
             margin: .4vw;
             transition: .5s;
         }
-        // i{
-        //     padding-left: .5vw;
-        // }
     }
 
+}
+
+@media screen and (max-width: 900px) {
+    header{ 
+        height: 100vh;
+
+        nav{
+            ul{
+                li{
+                    a{ 
+                        font-size: 4vw;
+                        margin: 1vw;
+                    }
+                }
+            }
+        }
+
+        h1{
+            font-size: 50vw;
+        }
+        a{
+            font-size: 4vw;
+        }
+    }
 }
