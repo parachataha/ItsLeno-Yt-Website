@@ -61,6 +61,6 @@ if (daysElm.textContent == 0 && hoursElm.textContent == 0 && minsElm.textContent
     minsElmP.style.background = 'rgb(255, 255, 255, 0.5)';
     secsElmP.style.background = 'rgb(255, 255, 255, 0.5)';
 
-    fireworks.style.display = 'block';
+    // fireworks.style.display = 'block';
     navNewYearsButton.style.display = 'none';
 }
