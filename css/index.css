@@ -50,6 +50,13 @@ body {
   background: white;
 }
 
+a.new-years-countdown {
+  color: rgb(245, 67, 67);
+}
+a.new-years-countdown:hover, a.new-years-countdown:active {
+  color: rgb(196, 38, 38);
+}
+
 header {
   margin: 0;
   padding: 0;
@@ -295,4 +302,63 @@ div.modal a:hover, div.modal a:active {
   header a {
     font-size: 4vw;
   }
+  body#countdown section#countdown div {
+    display: block;
+  }
+}
+body#countdown {
+  background: url("/assets/extras/xmas 2.jpg"), rgba(0, 0, 0, 0.889);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+body#countdown header#countdown {
+  background: none;
+  padding: 0;
+  margin: 0;
+  height: 55vh;
+}
+body#countdown header#countdown h1 {
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0px 15vw 0vw 15vw;
+  border-radius: 15px;
+}
+body#countdown header#countdown nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0vw 0vw 2vw 0vw;
+}
+body#countdown header#countdown nav a {
+  font-size: 1.7vw;
+}
+body#countdown header#countdown nav a:hover, body#countdown header#countdown nav a:active {
+  color: rgb(245, 67, 67);
+}
+body#countdown section#countdown div {
+  display: flex;
+  align-items: center;
+  margin: 0px 25vw 0px 25vw;
+}
+body#countdown section#countdown div p {
+  font-size: 2.5vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0px 1vw 0vw 1vw;
+  padding: 1vw;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+body#countdown img {
+  position: fixed;
+  top: 20vh;
+  left: 30vw;
+  height: 80%;
+  display: none;
 }/*# sourceMappingURL=index.css.map */
