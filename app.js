@@ -54,8 +54,8 @@ setInterval(beginCountdown, 1000);
 if (daysElm.textContent == 0 && hoursElm.textContent == 0 && minsElm.textContent == 0 && secsElm.textContent == 0) {
     countdownPage.style.background = 'url("/assets/extras/fireworks-bg.gif")';
     countdownPage.style.backgroundRepeat = 'no-repeat';
-    countdownPage.style.backgroundSize = 'cover';
-    // countdownPage.header.h1.style.Background = 'rgb(255, 255, 255, 0.5)';
+    countdownPage.style.backgroundSize = '140%';
+
 
     daysElmP.style.background = 'rgb(196, 38, 38, .6)';
     hoursElmP.style.background = 'rgb(196, 38, 38, .7)';

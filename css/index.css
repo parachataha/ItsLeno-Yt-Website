@@ -320,6 +320,9 @@ body#countdown header#countdown nav a {
 body#countdown header#countdown nav a:hover, body#countdown header#countdown nav a:active {
   color: rgb(245, 67, 67);
 }
+body#countdown section#countdown {
+  background-position: 50%;
+}
 body#countdown section#countdown h1 {
   font-size: 2.5em;
 }
