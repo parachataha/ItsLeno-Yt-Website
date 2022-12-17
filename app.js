@@ -36,10 +36,10 @@ const beginCountdown = () => {
 
     // console.log(days, hours, mins, secs);
 
-    // days = 0;
-    // hours = 0;
-    // mins = 0;
-    // secs = 0;
+    days = 0;
+    hours = 0;
+    mins = 0;
+    secs = 0;
 
     daysElm.textContent = days;
     hoursElm.textContent = hours;
@@ -55,11 +55,12 @@ if (daysElm.textContent == 0 && hoursElm.textContent == 0 && minsElm.textContent
     countdownPage.style.background = 'url("/assets/extras/fireworks-bg.gif")';
     countdownPage.style.backgroundRepeat = 'no-repeat';
     countdownPage.style.backgroundSize = 'cover';
+    // countdownPage.header.h1.style.Background = 'rgb(255, 255, 255, 0.5)';
 
-    daysElmP.style.background = 'rgb(255, 255, 255, 0.5)';
-    hoursElmP.style.background = 'rgb(255, 255, 255, 0.5)';
-    minsElmP.style.background = 'rgb(255, 255, 255, 0.5)';
-    secsElmP.style.background = 'rgb(255, 255, 255, 0.5)';
+    daysElmP.style.background = 'rgb(196, 38, 38, .6)';
+    hoursElmP.style.background = 'rgb(196, 38, 38, .7)';
+    minsElmP.style.background = 'rgb(196, 38, 38, .7)';
+    secsElmP.style.background = 'rgb(196, 38, 38, .7)';
 
     // fireworks.style.display = 'block';
     navNewYearsButton.style.display = 'none';
