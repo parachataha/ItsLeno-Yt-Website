@@ -21,6 +21,8 @@ let secsElmP = document.querySelector('div p.secs');
 
 let fireworks = document.querySelector('section#countdown img')
 
+let navNewYearsButton = document.querySelector('a.new-years-countdown')
+
 const beginCountdown = () => {
     let currYear = new Date();
     let diff = newYear - currYear;
@@ -60,4 +62,5 @@ if (daysElm.textContent == 0 && hoursElm.textContent == 0 && minsElm.textContent
     secsElmP.style.background = 'rgb(255, 255, 255, 0.5)';
 
     fireworks.style.display = 'block';
+    navNewYearsButton.style.display = 'none';
 }
