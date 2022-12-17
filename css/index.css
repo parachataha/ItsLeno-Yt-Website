@@ -288,24 +288,6 @@ div.modal a:hover, div.modal a:active {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 900px) {
-  header {
-    height: 100vh;
-  }
-  header nav ul li a {
-    font-size: 4vw;
-    margin: 1vw;
-  }
-  header h1 {
-    font-size: 50vw;
-  }
-  header a {
-    font-size: 4vw;
-  }
-  body#countdown section#countdown div {
-    display: block;
-  }
-}
 body#countdown {
   background: url("/assets/extras/xmas 2.jpg"), rgba(0, 0, 0, 0.889);
   background-size: cover;
@@ -338,16 +320,19 @@ body#countdown header#countdown nav a {
 body#countdown header#countdown nav a:hover, body#countdown header#countdown nav a:active {
   color: rgb(245, 67, 67);
 }
+body#countdown section#countdown h1 {
+  font-size: 2.5em;
+}
 body#countdown section#countdown div {
   display: flex;
   align-items: center;
-  margin: 0px 25vw 0px 25vw;
+  margin: 0px 200px 0px 200px;
 }
 body#countdown section#countdown div p {
-  font-size: 2.5vw;
+  font-size: 2em;
   background-color: rgba(0, 0, 0, 0.4);
-  margin: 0px 1vw 0vw 1vw;
-  padding: 1vw;
+  margin: 0px 20px 0vw 20px;
+  padding: 1vw 2vw 1vw 2vw;
   border-radius: 10px;
   color: white;
   text-align: center;
@@ -361,4 +346,39 @@ body#countdown img {
   left: 30vw;
   height: 80%;
   display: none;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 100vh;
+  }
+  header nav ul li a {
+    font-size: 4vw;
+    margin: 1vw;
+  }
+  header h1 {
+    font-size: 50vw;
+  }
+  header a {
+    font-size: 4vw;
+  }
+  body#countdown header#countdown {
+    height: auto;
+  }
+  body#countdown header#countdown h1 {
+    font-size: 2.5em;
+  }
+  body#countdown header#countdown nav a {
+    font-size: 1em;
+  }
+  body#countdown section#countdown div {
+    display: block;
+    margin: 10px;
+  }
+  body#countdown section#countdown div p {
+    margin: 20px;
+  }
+  body#countdown section#countdown div p br {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
