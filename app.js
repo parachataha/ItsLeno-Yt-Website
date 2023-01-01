@@ -36,10 +36,10 @@ const beginCountdown = () => {
 
     // console.log(days, hours, mins, secs);
 
-    // days = 0;
-    // hours = 0;
-    // mins = 0;
-    // secs = 0;
+    days = 0;
+    hours = 0;
+    mins = 0;
+    secs = 0;
 
     daysElm.textContent = days;
     hoursElm.textContent = hours;
