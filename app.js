@@ -5,7 +5,7 @@ const modal = document.querySelector('div.modal');
 //     modal.style.display = 'none';  
 // })
 
-let newYear = new Date("1 Jan 2023");
+let newYear = new Date("1 Jan 2024");
 
 let daysElm = document.querySelector('div p span.days');
 let hoursElm = document.querySelector('div p span.hours');
@@ -36,10 +36,10 @@ const beginCountdown = () => {
 
     // console.log(days, hours, mins, secs);
 
-    days = 0;
-    hours = 0;
-    mins = 0;
-    secs = 0;
+    // days = 0;
+    // hours = 0;
+    // mins = 0;
+    // secs = 0;
 
     daysElm.textContent = days;
     hoursElm.textContent = hours;
